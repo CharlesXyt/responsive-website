@@ -33,5 +33,24 @@ const StyledHeader = styled.header`
     }
 `
 
+const StyledNav = styled.nav`
 
-export {StyledHeader}
+    position:absolute;
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    left:0;
+    top:0;
+    img {
+        margin-top:20px;
+        margin-left:40px;
+        height:100px;
+        width:auto;
+    }
+`
+
+
+
+export {StyledHeader,StyledNav}
