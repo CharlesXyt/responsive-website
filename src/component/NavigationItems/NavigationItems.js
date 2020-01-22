@@ -10,7 +10,6 @@ const Styledul = styled.ul`
     li {
         margin:0px 20px;
         a {
-            
             &:link,&:visited{
                 color:white;
                 text-decoration:none;
