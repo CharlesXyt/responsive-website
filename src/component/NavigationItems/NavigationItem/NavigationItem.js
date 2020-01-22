@@ -5,7 +5,7 @@ export default (props) => {
 
     return (
         <li>
-            <NavLink exact to={props.path}>{props.children}</NavLink>
+            <NavLink exact to={props.path} activeStyle={{borderBottom:"2px solid #e67e22",paddingBottom:"8px"}}>{props.children}</NavLink>
         </li>
     )
 }

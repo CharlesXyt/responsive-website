@@ -16,13 +16,10 @@ const Styledul = styled.ul`
                 text-decoration:none;
                 text-transform:uppercase;
                 font-size:.9rem;
+                padding-bottom:"8px";
                 border-bottom:"2px solid transparent"
             }
 
-            &:active,&:hover{
-                padding:"8px";
-                border-bottom:"2px solid #e67e22"
-            }
             
         }
     }
