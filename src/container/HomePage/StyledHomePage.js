@@ -7,7 +7,6 @@ const StyledSection = styled.section`
     width:80%;
     margin:40px auto;
 
-
     h2 {
         font-size:1.8rem;
         text-align:center;
@@ -57,6 +56,8 @@ const StyledFlexDiv = styled.div`
     flex-flow:row wrap;
 
 `
+const StyledSectionFull = styled(StyledSection)`
+    width:100%;
+`
 
-
-export {StyledSection,StyledFlexDiv}
+export {StyledSection,StyledFlexDiv,StyledSectionFull}
