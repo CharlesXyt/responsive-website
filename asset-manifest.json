@@ -1,24 +1,41 @@
 {
   "files": {
-    "main.css": "/responsive-website/static/css/main.9983a9cc.chunk.css",
-    "main.js": "/responsive-website/static/js/main.2459a292.chunk.js",
-    "main.js.map": "/responsive-website/static/js/main.2459a292.chunk.js.map",
+    "main.css": "/responsive-website/static/css/main.02a881e3.chunk.css",
+    "main.js": "/responsive-website/static/js/main.fda03ca2.chunk.js",
+    "main.js.map": "/responsive-website/static/js/main.fda03ca2.chunk.js.map",
     "runtime-main.js": "/responsive-website/static/js/runtime-main.8b193010.js",
     "runtime-main.js.map": "/responsive-website/static/js/runtime-main.8b193010.js.map",
-    "static/js/2.ee6ef3bc.chunk.js": "/responsive-website/static/js/2.ee6ef3bc.chunk.js",
-    "static/js/2.ee6ef3bc.chunk.js.map": "/responsive-website/static/js/2.ee6ef3bc.chunk.js.map",
+    "static/js/2.f568e10a.chunk.js": "/responsive-website/static/js/2.f568e10a.chunk.js",
+    "static/js/2.f568e10a.chunk.js.map": "/responsive-website/static/js/2.f568e10a.chunk.js.map",
     "index.html": "/responsive-website/index.html",
-    "precache-manifest.6b066460dedaadbf3ffbca7aa388adb2.js": "/responsive-website/precache-manifest.6b066460dedaadbf3ffbca7aa388adb2.js",
+    "precache-manifest.41379f5f0ca29b742a4b40070b1397e2.js": "/responsive-website/precache-manifest.41379f5f0ca29b742a4b40070b1397e2.js",
     "service-worker.js": "/responsive-website/service-worker.js",
-    "static/css/main.9983a9cc.chunk.css.map": "/responsive-website/static/css/main.9983a9cc.chunk.css.map",
-    "static/js/2.ee6ef3bc.chunk.js.LICENSE": "/responsive-website/static/js/2.ee6ef3bc.chunk.js.LICENSE",
+    "static/css/main.02a881e3.chunk.css.map": "/responsive-website/static/css/main.02a881e3.chunk.css.map",
+    "static/js/2.f568e10a.chunk.js.LICENSE": "/responsive-website/static/js/2.f568e10a.chunk.js.LICENSE",
+    "static/media/1.jpg": "/responsive-website/static/media/1.ec4871fa.jpg",
+    "static/media/2.jpg": "/responsive-website/static/media/2.5d8068eb.jpg",
+    "static/media/3.jpg": "/responsive-website/static/media/3.b92586dc.jpg",
+    "static/media/4.jpg": "/responsive-website/static/media/4.d2b48ab9.jpg",
+    "static/media/5.jpg": "/responsive-website/static/media/5.3a7dc31c.jpg",
+    "static/media/6.jpg": "/responsive-website/static/media/6.db4c17bf.jpg",
+    "static/media/7.jpg": "/responsive-website/static/media/7.0d0e0bf3.jpg",
+    "static/media/8.jpg": "/responsive-website/static/media/8.30d387f1.jpg",
+    "static/media/app-iPhone.png": "/responsive-website/static/media/app-iPhone.2bf4f65e.png",
+    "static/media/back-customers.jpg": "/responsive-website/static/media/back-customers.a17c3da3.jpg",
+    "static/media/berlin.jpg": "/responsive-website/static/media/berlin.a3ec74fd.jpg",
+    "static/media/customer-1.jpg": "/responsive-website/static/media/customer-1.b56b4351.jpg",
+    "static/media/customer-2.jpg": "/responsive-website/static/media/customer-2.9b6c894a.jpg",
+    "static/media/download-app.svg": "/responsive-website/static/media/download-app.d0558d91.svg",
     "static/media/hero.jpg": "/responsive-website/static/media/hero.6923d550.jpg",
-    "static/media/logo-white.png": "/responsive-website/static/media/logo-white.93f9c925.png"
+    "static/media/lisbon-3.jpg": "/responsive-website/static/media/lisbon-3.0fb4a5fe.jpg",
+    "static/media/logo-white.png": "/responsive-website/static/media/logo-white.93f9c925.png",
+    "static/media/london.jpg": "/responsive-website/static/media/london.f42da570.jpg",
+    "static/media/san-francisco.jpg": "/responsive-website/static/media/san-francisco.817c8935.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b193010.js",
-    "static/js/2.ee6ef3bc.chunk.js",
-    "static/css/main.9983a9cc.chunk.css",
-    "static/js/main.2459a292.chunk.js"
+    "static/js/2.f568e10a.chunk.js",
+    "static/css/main.02a881e3.chunk.css",
+    "static/js/main.fda03ca2.chunk.js"
   ]
 }
