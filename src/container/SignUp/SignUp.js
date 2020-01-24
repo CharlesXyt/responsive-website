@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../../component/Header/Header'
-import {StyledSection,StyledFlexDiv} from '../HomePage/StyledHomePage'
+import {StyledSection,StyledFlexDiv,StyledSectionFull} from '../HomePage/StyledHomePage'
 import Button from '../../component/Button/LinkButton'
 import styled from 'styled-components'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCheck,faEraser} from '@fortawesome/free-solid-svg-icons'
+import Form from '../../component/Form/Form'
 
 const StyledPriceDiv = styled(StyledFlexDiv)`
     position:relative;
@@ -58,6 +59,14 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
     }
 
 `
+const StyledFormSection = styled(StyledSectionFull)`
+    background-color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+
+`
+
+
 
 const signUp = () => {
     
@@ -120,6 +129,10 @@ const signUp = () => {
                     </div>
                 </StyledPriceDiv>
             </StyledSection>
+            <StyledFormSection>
+                <h2>We're happy to hear from you</h2>
+                <Form/>
+            </StyledFormSection>
         </React.Fragment>
     )
 }
