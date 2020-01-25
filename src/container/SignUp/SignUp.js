@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCheck,faEraser} from '@fortawesome/free-solid-svg-icons'
 import Form from '../../component/Form/Form'
+import Footer from '../../component/Footer/Footer'
 
 const StyledPriceDiv = styled(StyledFlexDiv)`
     position:relative;
@@ -133,6 +134,7 @@ const signUp = () => {
                 <h2>We're happy to hear from you</h2>
                 <Form/>
             </StyledFormSection>
+            <Footer/>
         </React.Fragment>
     )
 }

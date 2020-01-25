@@ -3,7 +3,7 @@ import Header from '../../component/Header/Header'
 import {StyledSection,StyledFlexDiv,StyledSectionFull} from '../HomePage/StyledHomePage'
 import Cities from '../../component/Cities/Cities'
 import Testimonials from '../../component/Testimonials/Testimonials'
-
+import Footer from '../../component/Footer/Footer'
 
 
 
@@ -22,6 +22,7 @@ const ourCities = () => {
             <StyledSectionFull>
                 <Testimonials/>
             </StyledSectionFull>
+            <Footer/>
         </React.Fragment>
     )
 }

@@ -58,6 +58,7 @@ const StyledFlexDiv = styled.div`
 `
 const StyledSectionFull = styled(StyledSection)`
     width:100%;
+    margin-bottom:0;
 `
 
 export {StyledSection,StyledFlexDiv,StyledSectionFull}

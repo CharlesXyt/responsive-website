@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import phone from '../../assets/images/app-iPhone.png'
 import apple_logo from '../../assets/images/download-app.svg'
 import android_logo from '../../assets/images/download-app-android.png'
-
+import Footer from '../../component/Footer/Footer'
 
 const StyledHowItWorksDiv = styled(StyledFlexDiv)`
 
@@ -88,6 +88,7 @@ const howITWorks = () => {
                     </div>
                 </StyledHowItWorksDiv>
             </StyledSection>
+            <Footer/>
         </React.Fragment>
     )
 }
