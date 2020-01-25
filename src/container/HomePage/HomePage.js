@@ -7,7 +7,7 @@ import {
 } from './StyledHomePage'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faInfinity,faStopwatch,faUnlock,faCartPlus} from '@fortawesome/free-solid-svg-icons'
-
+import Footer from '../../component/Footer/Footer'
 
 
 const homePage = () => {
@@ -47,9 +47,11 @@ const homePage = () => {
                     </div>             
                 </StyledFlexDiv>
             </StyledSection>
-                <Meals/>
-            <StyledSection>
-            </StyledSection>
+            <Meals/>
+            
+            <Footer/>
+            
+            
         </React.Fragment>
     )
 

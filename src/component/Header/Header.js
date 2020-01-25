@@ -3,14 +3,12 @@ import {
     StyledHeader,
     StyledNav
 } from './StyledHeader'
-import LinkButton from '../Button/LinkButton'
+import LinkButton from '../Link/Link'
 import logo from '../../assets/images/logo-white.png'
 import NavigationItems from '../NavigationItems/NavigationItems'
 
 const header = () => {
     return (
-
-        
         <StyledHeader>
             <StyledNav>
                 <img src={logo} alt="omnifood logo"/>

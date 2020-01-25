@@ -6,6 +6,7 @@ import phone from '../../assets/images/app-iPhone.png'
 import apple_logo from '../../assets/images/download-app.svg'
 import android_logo from '../../assets/images/download-app-android.png'
 
+
 const StyledHowItWorksDiv = styled(StyledFlexDiv)`
 
     align-items:center;

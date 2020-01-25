@@ -16,6 +16,7 @@ const StyledImages = styled.ul`
     padding-left:0;
     list-style:none;
     flex-wrap:wrap;
+    margin-bottom:0px;
     li {
         width:25%;
         height:auto;

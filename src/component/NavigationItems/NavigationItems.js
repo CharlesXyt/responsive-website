@@ -30,10 +30,10 @@ export default (props) => {
 
     return (
         <Styledul>
-            <NavigationItem path="/">Food delivery</NavigationItem>
-            <NavigationItem path="/how">How it works</NavigationItem>
-            <NavigationItem path="/cities">Our cities</NavigationItem>
-            <NavigationItem path="/signup">Sign up</NavigationItem>
+            <NavigationItem   path="/">Food delivery</NavigationItem>
+            <NavigationItem   path="/how">How it works</NavigationItem>
+            <NavigationItem   path="/cities">Our cities</NavigationItem>
+            <NavigationItem   path="/signup">Sign up</NavigationItem>
         </Styledul>
     )
 }
