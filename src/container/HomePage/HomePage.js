@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../component/Header/Header'
 import Meals from '../../component/Meals/Meals'
 import {
     StyledSection,
@@ -14,8 +13,6 @@ const homePage = () => {
     
     return (
         <React.Fragment>
-            <Header/>
-
             <StyledSection>
                 <div className="section-0_content">
                     <h2 >Get food fast — not fast food</h2>

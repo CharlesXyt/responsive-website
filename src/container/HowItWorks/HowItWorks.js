@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../component/Header/Header'
 import {StyledSection,StyledFlexDiv} from '../HomePage/StyledHomePage'
 import styled from 'styled-components'
 import phone from '../../assets/images/app-iPhone.png'
@@ -51,6 +50,17 @@ const StyledHowItWorksDiv = styled(StyledFlexDiv)`
         }
 
     }
+    @media only screen and (max-width:767px) {
+        flex-direction:column;
+
+        .phone-img{
+            width:80%;
+        }
+
+        .work-steps{
+            width:80%;
+        }
+    }
 
 
 `
@@ -60,7 +70,6 @@ const howITWorks = () => {
     
     return (
         <React.Fragment>
-            <Header/>
             <StyledSection>
                 <h2>How it works - Simple as 1 2 3</h2>
                 <StyledHowItWorksDiv>

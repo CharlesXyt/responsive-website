@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from '../../component/Header/Header'
 import {StyledSection,StyledFlexDiv,StyledSectionFull} from '../HomePage/StyledHomePage'
-import Button from '../../component/Button/LinkButton'
+import Button from '../../component/Link/Link'
 import styled from 'styled-components'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCheck,faEraser} from '@fortawesome/free-solid-svg-icons'
@@ -9,14 +8,17 @@ import Form from '../../component/Form/Form'
 import Footer from '../../component/Footer/Footer'
 
 const StyledPriceDiv = styled(StyledFlexDiv)`
-    position:relative;
-    .price-box {
+
+    justify-content:space-between;
+    .price-box { 
         width:27%;
-        height:400px;
+
+        height:20rem;
         border-radius:5px;
         border-bottom: 1ps solid #e8e8e8;
         background-color:white;
         padding:1rem;
+        margin-bottom:2rem;
         h3 {
             margin:0;
             font-weight:300;
@@ -32,7 +34,7 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
             height:33%;
 
             .price {
-                font-size:2.5rem;
+                font-size:2rem;
                 font-weight:100;
                 color:#e67e22;
             }
@@ -41,7 +43,7 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
         .button-signup {
             margin:0.7rem auto;
             transform:translateX(50%);
-            padding:7px 14px;
+            padding:.3rem .7rem;
             font-size:1.2rem;
         }
 
@@ -53,9 +55,28 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
                 .icon-price-box{
                     color:#e67e22;
                     font-size:0.5rem;
-                    padding-right:10px;
+                    padding-right:.5rem;
                 }
             }
+        }
+        
+    }
+    @media only screen and (max-width:1200px){
+
+        .price-box{
+            width:40%;
+            font-size:17px;
+        }
+        
+    }
+
+    @media only screen and (max-width:767px){
+       
+        justify-content:center;
+        
+        .price-box{
+            width:70%;
+            font-size:15px;
         }
     }
 
@@ -73,7 +94,6 @@ const signUp = () => {
     
     return (
         <React.Fragment>
-            <Header/>
             <StyledSection>
                 <h2>Start eating healthy today</h2>
                 <StyledPriceDiv>

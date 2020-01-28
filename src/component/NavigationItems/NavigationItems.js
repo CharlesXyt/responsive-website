@@ -22,6 +22,15 @@ const Styledul = styled.ul`
             
         }
     }
+
+    @media only screen and (max-width:767px){
+        flex-direction:column;
+        li a {
+            &:link,&:visited{
+                color:black;
+            }
+        }
+    }
 `
 
 

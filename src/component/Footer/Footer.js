@@ -16,7 +16,11 @@ const StyledFooterDiv = styled.div`
         display:flex;
         width:80%;
         margin:auto;
+        height:3rem;
         justify-content:space-between;
+        @media only screen and (max-width:767px) {
+            flex-direction:column;
+        }
     }
     .copyright{
         font-size:0.8rem;
@@ -49,6 +53,12 @@ const StyledFooterDiv = styled.div`
         }
 
     }
+
+    @media only screen and (max-width:767px){
+        font-size:13px;
+    }
+
+    
 
 `
 

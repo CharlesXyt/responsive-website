@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const StyledSection = styled.section`
     width:80%;
-    margin:40px auto;
+    margin:2rem auto;
 
     h2 {
         font-size:1.8rem;
@@ -20,8 +20,8 @@ const StyledSection = styled.section`
             height:2px;
             content:" ";
             background-color:#e67e22;
-            width:100px;
-            margin:30px auto;
+            width:5rem;
+            margin:1.5rem auto;
         }
     }
 
@@ -31,20 +31,28 @@ const StyledSection = styled.section`
             line-height:1.5rem;
             width:70%;
             margin:auto;
-            margin-bottom:30px;
+            margin-bottom:1.5rem;
         }
     }
 
     .section-1_content{
-        width:250px;
+        width:22%;
         margin:auto;
         p{
-            font-size:1 rem;
+            font-size:1rem;
         }
 
         .icon-font {
             font-size:1.5rem;
             color:#e67e22;
+        }
+
+        @media only screen and (max-width:1200px){
+            width:40%;
+        }
+
+        @media only screen and (max-width:767px){
+            width:80%;
         }
     }
 
@@ -52,7 +60,7 @@ const StyledSection = styled.section`
 const StyledFlexDiv = styled.div`
 
     display:flex;
-    justify-content:space-between;
+
     flex-flow:row wrap;
 
 `

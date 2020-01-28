@@ -23,6 +23,10 @@ const StyledImages = styled.ul`
         margin:0;
         background-color:black;
         overflow:hidden;
+
+        @media only screen and (max-width:767px){
+            width:50%;
+        }
     }
 `
 

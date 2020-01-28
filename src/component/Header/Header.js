@@ -6,13 +6,23 @@ import {
 import LinkButton from '../Link/Link'
 import logo from '../../assets/images/logo-white.png'
 import NavigationItems from '../NavigationItems/NavigationItems'
+import ToggleButton from './ToggleButton'
 
-const header = () => {
+
+const Header = (props) => {
+
     return (
         <StyledHeader>
             <StyledNav>
-                <img src={logo} alt="omnifood logo"/>
-                <NavigationItems/>
+                <div className="topbar-desktop">
+                    <img src={logo} alt="omnifood logo"/>
+                    <NavigationItems/>
+                </div>
+                <div className="topbar-phone">
+                    <ToggleButton clicked={props.toggleClick}>click</ToggleButton>
+                    <img src={logo} alt="omnifood logo"/>
+                </div>
+                
             </StyledNav>
             <div className="text-hero-all">
                 <h1>Goodbye junk food.<br/> Hello super healthy meals.</h1>
@@ -25,4 +35,4 @@ const header = () => {
     )
 }
 
-export default header;
+export default Header;

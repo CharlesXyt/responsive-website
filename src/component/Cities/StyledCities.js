@@ -2,8 +2,7 @@ import styled from 'styled-components'
 
 
 const StyledCityDiv = styled.div`
-    width:20%;
-    min-width:250px;
+    width:22%;
     display:flex;
     flex-direction:column;
     margin:1rem auto;
@@ -38,6 +37,15 @@ const StyledCityDiv = styled.div`
             margin-bottom:0px;
         }
     }
+
+    @media only screen and (max-width:1200px){
+        width:40%;
+    }
+
+    @media only screen and (max-width:767px){
+        width:80%;
+    }
+}
     
 
 `
