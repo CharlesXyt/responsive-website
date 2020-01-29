@@ -25,6 +25,8 @@ const Styledul = styled.ul`
 
     @media only screen and (max-width:767px){
         flex-direction:column;
+        justify-content:space-around;
+        height:23%;
         li a {
             &:link,&:visited{
                 color:black;
