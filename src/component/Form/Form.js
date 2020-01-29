@@ -48,6 +48,16 @@ const StyledForm = styled.form`
             background-color:#924d10;
         }
     }
+
+    @media only screen and (max-width:767px){
+        width:90%;
+        div{
+            justify-content:flex-start;
+            label{
+                width:40%;
+            }
+        }
+    }
 ` 
 
 export default () => (

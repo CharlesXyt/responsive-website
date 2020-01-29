@@ -42,7 +42,6 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
 
         .button-signup {
             margin:0.7rem auto;
-            transform:translateX(50%);
             padding:.3rem .7rem;
             font-size:1.2rem;
         }
@@ -73,10 +72,21 @@ const StyledPriceDiv = styled(StyledFlexDiv)`
     @media only screen and (max-width:767px){
        
         justify-content:center;
-        
         .price-box{
+            height:330px;
             width:70%;
             font-size:15px;
+
+            .price-box-upper{
+                .price {
+                    font-size:1.5rem;
+                }
+
+                .button-signup{
+                    text-align:center;
+                }
+
+            } 
         }
     }
 
